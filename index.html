@@ -1,0 +1,244 @@
+<html>
+
+<head>
+
+	<meta charset="utf-8">
+
+	<title>Alma's Almhütte</title>
+
+	<style>
+		html {
+			scroll-behavior: smooth;
+		}
+
+		.atf-image {
+			width: 100%;
+			height: 800px;
+			object-fit: cover;
+			margin-top: 44px;
+		}
+
+		.mybody {
+			font-family: 'Open Sans', sans-serif;
+			margin: 0;
+		}
+
+		.UnifrakturMaguntia {
+			font-family: UnifrakturMaguntia;
+		}
+
+		.main-container {
+			display: flex;
+			justify-content: center;
+			align-items: center;
+			flex-direction: column;
+			color: rgba(255, 255, 255, 1);
+			background-color: rgba(0, 0, 0, 0.5);
+			position: absolute;
+			top: 0;
+			left: 0;
+			right: 0;
+			height: 800px;
+			margin-top: 44px;
+		}
+
+		.container {
+			padding-left: 100px;
+			padding-right: 100px;
+			padding-top: 60px;
+			margin: 0px 0 0px 0;
+		}
+
+		.maps {
+			height: 350px;
+			width: 100%;
+			margin: 20px 0 20px 0;
+		}
+
+
+		.footer {
+			display: flex;
+			justify-content: space-between;
+			color: white;
+			background-color: rgba(10, 30, 40, 1);
+			padding: 100px;
+			margin: 0;
+		}
+
+		.footer-link {
+			color: white;
+			text-decoration: none;
+			cursor: pointer;
+		}
+
+		.footer-link:hover {
+			color: orange;
+			text-decoration: underline;
+		}
+
+		.headline {
+			font-size: 45px;
+			drop-shadow(2px -5px 5px black);
+		}
+
+		.menubar {
+			color: white;
+			font-size: 24px;
+			padding: 10px;
+			background-color: rgba(10, 30, 40, 1);
+			position: fixed;
+			display: flex;
+			justify-content: space-around;
+			top: 0;
+			left: 0;
+			right: 0;
+
+		}
+
+		.menubar a {
+			color: white;
+			text-decoration: none;
+			cursor: pointer;
+		}
+
+		.menubar a:hover {
+			color: orange;
+		}
+
+		.order-btn {
+			color: rgba(10, 30, 40, 1) !important;
+			background-color: white;
+			padding: 5px 10px;
+		}
+
+		.order-btn:hover {
+			background-color: orange;
+
+		}
+		
+	</style>
+
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link
+		href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap"
+		rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=UnifrakturMaguntia&display=swap" rel="stylesheet">
+
+</head>
+
+
+<body class="myBody">
+
+
+
+	<img class="atf-image" src="./img/aot.jpg">
+
+	<div class="main-container">
+		<h1 class="headline">Herzlich Willkommen in Alma's Almhütte</h1>
+		Hier findest du einen Überblick über unsere Öffnungszeiten und Speisen.
+	</div>
+	<div class="menubar">
+		<a href="#öffnungszeiten">Öffnungszeiten</a>
+		<a href="#menu">Menü</a>
+		<a href="#kontakt">Kontakt</a>
+		<a class="order-btn" href="">Online bestellen</a>
+	</div>
+
+	<div class="container" id="öffnungszeiten">
+		<h2 class="UnifrakturMaguntia">Öffnungszeiten</h2>
+		<table>
+			<tr>
+				<td>Mo-Fr</td>
+				<td>11-23 Uhr</td>
+			</tr>
+			<tr>
+				<td>Sa</td>
+				<td>11-18 Uhr</td>
+			</tr>
+			<tr>
+				<td>So</td>
+				<td>13-18 Uhr</td>
+			</tr>
+		</table>
+	</div>
+
+	<div class="container " id="menu">
+
+		<h2 class="UnifrakturMaguntia">Menü</h2>
+
+		<table>
+			<tr>
+				<td>Pommes</td>
+				<td>3.50 €</td>
+				<td>Frittierte Kartoffeln</td>
+
+			</tr>
+			<tr>
+				<td>Fritten</td>
+				<td>4.50 €</td>
+				<td>In Fett knusprig gebratene Erdäpfel</td>
+
+			</tr>
+			<tr>
+				<td>Pommes Frites</td>
+				<td>5.50 €</td>
+				<td>Bis zur Krossheit in Öl erhitzte Tüften</td>
+			</tr>
+			<tr>
+				<td>Schnipo Schranke</td>
+				<td>12.50 €</td>
+				<td>Paniertes Schweinefleisch, besser bekannt als "Schnitzel", serviert mit goldgelben Freudenspendern
+					nebst Ketchup und Mayo</td>
+			</tr>
+		</table>
+		<br>
+		Jetzt die Speisekarte <a href="./downloads/menü.pdf" target="_blank">herunterladen</a>.
+
+	</div>
+
+	<div class="container" id="kontakt">
+
+		<h2 class="UnifrakturMaguntia">Kontakt</h2>
+		So kannst du uns erreichen:
+		<table>
+			<tr>
+				<td>Telefon:</td>
+				<td>
+					<a href="tel:06701-8413">06701-8413</a>
+				</td>
+			</tr>
+			<tr>
+				<td>E-Mail:</td>
+				<td>
+					<a href="mailto:alma@almhütte.com">alma@almhütte.com</a>
+				</td>
+			</tr>
+		</table>
+
+
+		<h2 class="UnifrakturMaguntia">Anfahrt</h2>
+		Unsere Adresse lautet: Almhütte 1, 65795 Almhüttendorf
+
+		<iframe class="maps"
+			src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2561.164849230466!2d8.494178576128887!3d50.06447431508027!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47bda04ceb7ac0b7%3A0x1ba607e3b83d9f55!2sGlockwiesenweg%202%2C%2065795%20Hattersheim%20am%20Main!5e0!3m2!1sen!2sde!4v1695467412948!5m2!1sen!2sde"
+			style="border:0; display: block;" allowfullscreen="" loading="lazy"
+			referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+	</div>
+
+
+
+	<div class="container footer">
+		<div>
+			(C) 2023 Luise Rosen
+		</div>
+		<div>
+			<a class="footer-link" href="./impressum.html">Impressum</a> | <a class="footer-link"
+				href="./datenschutz.html">Datenschutz</a>
+		</div>
+
+	</div>
+</body>
+
+</html>
